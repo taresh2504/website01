@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .container{
@@ -146,7 +147,7 @@
     gap: 10px;
 }
 
-.mutton-box{
+.mutton-box, .naan-box, .pk-box, .mk-box, .dm-box{
     border: 1px solid black;
     box-sizing: border-box;
     height: 130px; 
@@ -467,6 +468,24 @@ font-size: medium;
     margin-left: 50px;
 }
 
+.buttonb41{
+    margin-top: 18px;
+    margin-right: 5px;
+}
+
+.buttonb42{
+    margin-right: 5px;
+}
+
+.buttonb43{
+    margin-top: 18px;
+    margin-left: 70px;
+}
+
+.buttonb47{
+    margin-top: 18px;
+    margin-left: 20px;
+}
 
 .button-content{
     height: 35px;
@@ -515,11 +534,37 @@ font-size: medium;
 /* font-weight: bold; */
 }
 
-.button{
+
+.button, .buttonb42{
     /* background-color: orange;
     color: white; */
     padding-top: 18px;
     padding-left: 100px;
+}
+
+.buttonb44{
+    margin-top: 18px;
+    margin-left: 64px;
+}
+
+.buttonb45{
+    margin-top: 18px;
+    margin-left: 42px;
+}
+
+.buttonb46{
+    margin-top: 18px;
+    margin-left: 100px;
+}
+
+.buttonb48{
+    margin-top: 18px;
+    margin-left: 95px;
+}
+
+.buttonb49{
+    margin-top: 18px;
+    margin-left: 70px;
 }
 
 .chicken-content{
@@ -1426,9 +1471,529 @@ input[type="password*"] {
 
 
 
-@media (max-width:"430px"){
+@media (max-width:430px){
+
+.biryani-items .button{
+    width: -10%;
+}
+
+.first-page{
+    width: 100%;
+    display: block;
+    gap: 50px;
+    /* align-items: flex-start; */
+}
+
+.food-items{
+    margin-top: 70px;
+    margin-left: 10px;
+    height: 672px;
+    width: 80%;
+    box-sizing: border-box;
+    border: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    position: sticky;
+    top: 50px;
+}
+
+.first-page .right-side .search-box{
+    position: relative;
+    height: 50px;
+    width: 120%;
+    margin-left: 30px;
+    margin-top: 70px;
+    border-radius: 15px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+.right-side .biryani-items, .right-side2 .bread-items,.right-side .second-part, .right-side .second-page .chicken-items, .second-page .second-page-part2, .second-page-part3, .second-page-part4, .second-page-part5, .second-page-part6, .right-side .third-page .dal-items, .right-side .third-page-part2, .right-side .third-page-part3, .fourth-page .dessert-items, .fifth-page .fish-items, .right-side .fifth-page-part2, .sixth-page .rice-items, .right-side .sixth-page-part2, .seventh-page .momo-items, .right-side .seventh-page-part2, .eightth-page .mutton-items, .right-side .eightth-page-part2, .right-side .eightth-page-part3, .right-side .eightth-page-part4, .ninth-page .mutton-items, .right-side .ninth-page-part2, .right-side .ninth-page-part3, .right-side .ninth-page-part4, .tenth-page .mutton-items, .right-side .tenth-page-part2, .right-side .tenth-page-part3, .eleventh-page .mutton-items, .right-side .eleventh-page-part2, .twelth-page .mutton-items, .right-side .twelth-page-part2, .thirteenth-page .mutton-items, .right-side .thirteenth-page-part2, .right-side .thirteenth-page-part3,.right-side .thirteenth-page-part4, .right-side .thirteenth-page-part5, .fourteenth-page .mutton-items{
+    display: block;
+    gap: 10px;
+}
+
+.biryani, .bread, .second-page .content-name, .third-page .content-name, .fourth-page .content-name, .fifth-page .content-name, .sixth-page .content-name, .seventh-page .content-name, .eightth-page .content-name, .ninth-page .content-name,.tenth-page .content-name, .eleventh-page .content-name, .twelth-page .content-name, .thirteenth-page .content-name, .fourteenth-page .content-name{
+    margin-top: 12px;
+    margin-left: 20px;
+    /* margin-left: -260px; */
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mutton-box, .chicken-box, .pk-box{
+    margin-left: 20px;
+    margin-top: 7px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 130px; 
+    width: 127%;
+    display: flex;
+}
+
+.bread-items{
+    display: block;
+}
+
+.naan-box{
+    /* display: flexbox; */
+    margin-top: 7.5px;
+    margin-left: 20px;
+    width: 127%;
+}
+
+.mk-box{
+    margin-top: -2px;
+    margin-left: 20px;
+    width: 127%;
+}
+
+.mk-box .button, .pk-box .button{
+    margin-left: 54.5px;
+}
+
+.third-part .mutton-box{
+    margin-top: -3px;
+    /* width: 430px; */
+}
+
+.third-part .mutton-box .button{
+    width: 87.5%;
+    margin-left: 46px;
+    margin-right: 29px;
+    position: relative;
+}
+
+.second-page .chicken-items .mutton-box .button{
+    margin-left: 45.5px;
+}
+
+.second-page .chicken-items .mutton-box .buttonb2{
+    margin-left: -58px;
+}
+
+.second-page .second-page-part2 .mutton-box .button{
+    margin-left: 45.5px;
+}
+
+.second-page .second-page-part2 .mutton-box .buttonb3{
+    margin-left: -55px;
+}
+
+.second-page .second-page-part3 .mutton-box .button{
+    margin-left: 45.3px;
+}
+
+.second-page .second-page-part3 .mutton-box .buttonb4{
+    margin-left: -53px;
+}
+
+.buttonb5{
+    margin-left: -60px;
+}
+
+.buttonb6, .buttonb7, .buttonb8, .buttonb9{
+    margin-left: -59.5px;
+}
+
+.second-page-part6 .mutton-box .button{
+ margin-left: 45.5px;
+}
+
+.second-page-part7{
+margin-top: 2px;
+}
+
+/* .second-page-part7 .mutton-box{
+    width: 150vh;
+} */
+
+.second-page-part7 .button{
+    margin-right: 30px;
+    margin-left: 45.5px;
+}
+
+.third-page .dm-box{
+    margin-left: 20px;
+    margin-top: 9px;
+   width: 127%;
+}
+
+.third-page .dm-box .button{
+    margin-left: 58px;
+}
+
+.third-page-part2 .mutton-box .buttonb10{
+    margin-left: -25.5px;
+}
+
+.third-page-part2 .mutton-box .buttonb11, .buttonb13{
+    margin-left: -52.5px;
+}
+
+.buttonb12{
+    margin-left: -52.5px;
+}
+
+.buttonb14, .buttonb15{
+    margin-left: -58.5px;
+}
+
+.buttonb16{
+    margin-left: -51.5px;
+}
+
+.buttonb17{
+    margin-left: -15px;
+}
+
+.buttonb18{
+    margin-left: -19px;
+}
+
+.buttonb19, .buttonb20, .buttonb21, .buttonb22{
+    margin-left: -60.5px;
+}
+
+.buttonb23{
+    margin-left: -50.5px;
+}
+
+.buttonb24{
+    margin-left: -54.5px;
+}
+
+.buttonb25{
+    margin-left: -52px;
+}
+
+.buttonb26{
+    margin-left: -62px;
+}
+
+.buttonb27{
+    margin-left: -45px;
+}
+
+.buttonb28{
+    margin-left: -62.5px;
+}
+
+.buttonb29, .buttonb31, .buttonb32, .buttonb33, .buttonb34, .buttonb35{
+    margin-left: -62px;
+}
+
+.buttonb36{
+    margin-left: -32.5px;
+}
+
+.buttonb37{
+    margin-left: -62.5px;
+}
+
+.buttonb38{
+    margin-left: -62px;
+}
+
+.buttonb39{
+    margin-left: -63px;
+}
+
+.buttonb30{
+    margin-left: 2.5px;
+}
+
+.buttonb43{
+    margin-left: -40px;
+    margin-right: 2.5px;
+}
+
+.buttonb44{
+    margin-left: 15px;
+    margin-right: 2.5px;
+}
+
+.buttonb45{
+    margin-right: 2.5px;
+}
+
+.third-page-part4 .mutton-box{
+    margin-top: 1px;
+}
+
+.chicken-box .button{
+    margin-left: 45.5px;
+}
+
+.bread-items .mutton-box .button{
+    margin-left: 33px;
+}
+
+.mutton-box-content p{
+    display: block;
+    padding-top: 18px;
+    padding-left: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+.button{
+    /* background-color: orange;
+    color: white; */
+    padding-top: 18px;
+    padding-left: 19px;
+    padding-right: 5px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.buttonb1{
+    position: relative;
+    margin-left: -63.5px;
+}
+
+.buttonb40{
+    margin-left: 5px;
+    margin-right: -2px;
+}
+
+.buttonb41{
+    margin-left: 25.5px;
+    margin-top: 18px;
+    margin-right: 3.5px;
+}
+
+.buttonb42{
+    margin-left: -57px;
+}
+
+.buttonb46{
+    margin-left: -10px;
+    margin-right: 2.5px;
+}
+
+.buttonb47{
+    margin-left: -20px;
+    margin-right: 2.5px;
+}
+
+.buttonb48{
+    margin-left: -12px;
+    margin-right: 2.5px;
+}
+
+.buttonb49{
+    margin-left: -10px;
+    margin-right: 2.5px;
+}
 
 
+.sixth-page-part3 .mutton-box .button{
+    margin-left: 52px;
+}
 
-    
+.eightth-page-part3 .mutton-box .button{
+    margin-left: 17.5px;
+}
+
+.eleventh-page .mutton-items .button{
+    margin-left: 23.5px;
+}
+
+.eleventh-page-part2 .mutton-box .button{
+    margin-left: 61.5px;
+}
+
+.eleventh-page-part3 .mutton-box .button{
+    margin-left: 52.5px;
+}
+
+.twelth-page .mutton-items .button{
+    margin-left: 63px;
+}
+
+.twelth-page-part2 .button{
+    margin-left: 72.5px;
+}
+
+.twelth-page-part3 .button{
+    margin-left: 19.5px;
+    /* margin-right: 1px; */
+}
+
+.thirteenth-page .mutton-items .button{
+    margin-left: 57px;
+}
+
+.thirteenth-page-part2 .button, .thirteenth-page-part3 .button{
+    margin-left: 55.5px;
+}
+
+.thirteenth-page-part4 .button{
+    margin-left: 55px;
+}
+
+.thirteenth-page-part6 .button{
+    margin-left: 18px;
+    margin-right: 200.9px;
+}
+
+.thirteenth-page-part5 .button{
+    margin-left: -2px;
+    margin-right: -2px;
+}
+
+.rice-items .mutton-box .button, .sixth-page-part2 .button{
+    margin-left: 67.5px;
+}
+
+.fourth-page .mutton-box .button{
+    margin-left: 61.5px;
+}
+
+.fourth-page-part2 .mutton-box{
+    margin-top: 0.5px;
+}
+
+.fourth-page-part2 .mutton-box .button{
+    margin-left: 66.5px;
+    /* margin-right: -7px; */
+}
+
+.account-section{
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+    display: grid;
+}
+
+.account-section .details{
+    margin-left: -130px;
+    margin-top: 10px;
+    /* margin-right: 10px; */
+    margin-bottom: 50px;
+    font-size: 20px;
+    padding-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.account-section .home-icon{
+    display: flex;
+    margin-left: -630px;
+    margin-top: -195px;
+    /* margin-right: 10px; */
+    margin-bottom: 50px;
+    font-size: 15px;
+    padding-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+#login{
+    margin-left: -450px; 
+    margin-top: 20px;
+    font-size: larger;
+}
+
+#or{
+    font-size: small;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    padding-left: 3.5px;
+    padding-bottom: 3.5px;
+    padding-right: 3.5px;
+    padding-top: 3.5px;
+}
+
+.login-page #login, #register{
+    font-size: larger;
+}
+
+.login-page .login-box{
+    margin-left: 25px;
+    height: 430px;
+    width: 350px;
+    border: 1px solid lightgray;
+}
+
+.username{
+    margin-top: 70px;
+}
+
+.uoea, .pw{
+    height: 30px;
+    width: 140%;
+}
+
+.lyp{
+    margin-left: 172px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.rm{
+    margin-left: 20px;
+}
+
+.cart-page .cd{
+    margin-left: -130px;
+    font-size: large;
+    margin-top: 7px;
+}
+
+.cart-page .home-icon{
+        display: flex;
+        margin-left: -835px;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        font-size: 15px;
+        padding-top: 25px;
+        align-items: center;
+        justify-content: center;
+}
+
+.crying-icon{
+    margin-left: -500px;
+}
+
+.cart-info{
+    margin-left: 110px;
+}
+
+.cart-box .ic{
+    margin-left: 145px;
+}
+
+.four-items1 .box1 img,.four-items2 .box2 img{
+    display: flex; 
+    justify-content: space-evenly; 
+    height: 175px;
+    width: 60%;
+}
+
+.four-items1 .box1 img{
+    margin-left: 5px;
+}
+
+#mmm{
+    font-size: 10px;
+    margin-left: -26px;
+}
+
+.four-items1 .rupee220{
+    margin-left: 77px;
+}
+
+.four-items1 .bt1{
+    margin-left: 35px;
+}
+
+.four-items2 .box2 img{
+    margin-left: -89px;
+}
+
 }
