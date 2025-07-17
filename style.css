@@ -1968,7 +1968,7 @@ margin-top: 2px;
     margin-left: 145px;
 }
 
-.four-items1 .box1 img,.four-items2 .box2 img{
+.four-items1 .box1 img,.four-items2 .box2 img, .four-items3 .box3 img, .four-items4 .box4 img{
     display: flex; 
     justify-content: space-evenly; 
     height: 175px;
@@ -1994,6 +1994,66 @@ margin-top: 2px;
 
 .four-items2 .box2 img{
     margin-left: -89px;
+}
+
+#kad{
+    font-size: 10px;
+    margin-left: -125px;
+}
+
+.four-items2 .rupee220{
+    margin-left: -30px;
+}
+
+.four-items2 .bt2{
+    margin-left: -70px;
+}
+
+.four-items1, .four-items2{
+    margin-top: -80px;
+}
+
+.checkout-box .four-items3, .four-items4{
+    display: grid;
+    margin-top: 240px;
+}
+
+.four-items3 .box3 img{
+    margin-left: -595px;
+}
+
+#ptm{
+    font-size: 10px;
+    margin-left: -640px;
+}
+
+.four-items3 .rupee220{
+    margin-left: -530px;
+    margin-top: -15px;
+}
+
+.four-items3 .bt3{
+    margin-left: -570px;
+    margin-top: -20px;
+}
+
+.four-items4 .box4 img{
+    margin-left: -690px;
+}
+
+#pl{
+    font-size: 10px;
+    margin-left: -720px;
+}
+
+.four-items4 .rupee220{
+    margin-left: -620px;
+    margin-top: -18px;
+}
+
+.four-items4 .bt4{
+    margin-left: -670px;
+    margin-top: -22px;
 }
 
 }
