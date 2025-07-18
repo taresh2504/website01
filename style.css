@@ -26,7 +26,7 @@
     width: 290px;
 }
 
-.container nav ul{
+.container ul{
     display: flex;
     color: black;
     align-items: center;
@@ -49,6 +49,14 @@
     padding-bottom: 30px;
     align-items: center;
     gap: 30px;
+}
+
+#icons2{
+    display: none;
+    position: absolute;
+    top: 7%;
+    right: 5%;
+    font-size: 30px;
 }
 
 .category{
@@ -1469,9 +1477,48 @@ input[type="password*"] {
 
 
 
+#check{
+    display: none;
+}
 
 
 @media (max-width:430px){
+
+.container img{
+    margin-left: -75px;
+}    
+
+#icons2{
+    display: block;
+}
+
+.container nav ul li{
+    /* display: none; */
+}
+
+.container .icons{
+    display: none;
+}
+.container nav ul{
+    display: none;
+
+}
+
+
+#check:checked~.container nav ul{
+    display: block;
+    width: 100%;
+    background-color: blanchedalmond;
+    position: absolute;
+    top: 18%;
+    left: 0px;
+    padding-left: 0%;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+
 
 .biryani-items .button{
     width: -10%;
@@ -2054,6 +2101,48 @@ margin-top: 2px;
 .four-items4 .bt4{
     margin-left: -670px;
     margin-top: -22px;
+}
+
+.food-items{
+    position: relative;
+    top: 0px;
+}
+
+.cart-box{
+    width: 100%;
+    height: 850px;
+    border: 1px solid black;
+    display: none;
+    flex-wrap: wrap;
+}
+
+.checkout-box{
+    display: none;
+    flex-wrap: wrap;
+}
+
+.cart-box .crying-icon{
+    padding-left: 0px;
+    margin: 0px;
+    width: 200px;
+}
+
+.cart-info{
+    margin-left: 0px;
+    margin-top: 30px;
+     margin: 0px;
+    width: 200px;
+}
+
+.cart-box .ic{
+    margin-top: -70px;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+     margin: 0px;
+    width: 200px;
 }
 
 }
