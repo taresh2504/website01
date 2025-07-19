@@ -2139,4 +2139,8 @@ margin-top: 2px;
     width: 200px;
 }
 
+.cart-page{
+    display: none;
+}
+
 }
